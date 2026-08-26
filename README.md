@@ -1,8 +1,8 @@
-\# COMP8240 Replication Project
+# COMP8240 Replication Project
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,7 +14,7 @@ The project is based on the paper:
 
 
 
-\*\*"Linear Classifier: An Often-Forgotten Baseline for Text Classification"\*\*  
+**"Linear Classifier: An Often-Forgotten Baseline for Text Classification"**  
 
 Yu-Chen Lin, Si-An Chen, Jie-Jyun Liu, and Chih-Jen Lin  
 
@@ -26,7 +26,7 @@ The project will investigate the replicability of the paper's experiments and ex
 
 
 
-\## Project Objectives
+## Project Objectives
 
 
 
@@ -34,23 +34,23 @@ The project aims to:
 
 
 
-1\. Reproduce selected results from the original paper using the authors' code and original data.
+1. Reproduce selected results from the original paper using the authors' code and original data.
 
-2\. Compare linear text classification methods with more computationally expensive approaches where feasible.
+2. Compare linear text classification methods with more computationally expensive approaches where feasible.
 
-3\. Apply the methods to additional text classification datasets not evaluated in the original paper.
+3. Apply the methods to additional text classification datasets not evaluated in the original paper.
 
-4\. Construct and evaluate a new text classification dataset.
+4. Construct and evaluate a new text classification dataset.
 
-5\. Analyse model performance, computational efficiency, and cases where different approaches succeed or fail.
-
-
-
-\## Preliminary Replication
+5. Analyse model performance, computational efficiency, and cases where different approaches succeed or fail.
 
 
 
-A preliminary feasibility experiment has been successfully completed using the \*\*UNFAIR-ToS\*\* dataset and the paper's one-vs-rest linear classification method.
+## Preliminary Replication
+
+
+
+A preliminary feasibility experiment has been successfully completed using the **UNFAIR-ToS** dataset and the paper's one-vs-rest linear classification method.
 
 
 
@@ -64,27 +64,27 @@ A preliminary feasibility experiment has been successfully completed using the \
 
 
 
-The preliminary experiment completed successfully on CPU in approximately \*\*3 seconds\*\*, providing initial evidence that the linear replication component is computationally feasible.
+The preliminary experiment completed successfully on CPU in approximately **3 seconds**, providing initial evidence that the linear replication component is computationally feasible.
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
-\- `scripts/` – scripts created for data preparation and later experiments
+- `scripts/` – scripts created for data preparation and later experiments
 
-\- `results/` – preliminary and future experimental results
+- `results/` – preliminary and future experimental results
 
-\- `proposal/` – project proposal material
+- `proposal/` – project proposal material
 
-\- `data/` – local datasets (not tracked where appropriate)
+- `data/` – local datasets (not tracked where appropriate)
 
-\- `original\_code/` – local copy of the authors' repository (not tracked)
+- `original_code/` – local copy of the authors' repository (not tracked)
 
 
 
-\## Original Resources
+## Original Resources
 
 
 
@@ -92,9 +92,9 @@ The original authors' code and datasets are kept separate from this repository. 
 
 
 
-\## Status
+## Status
 
 
 
-\*\*Current stage:\*\* Project proposal and preliminary feasibility testing.
+**Current stage:** Project proposal and preliminary feasibility testing.
 
