@@ -1,0 +1,27 @@
+COMP8240 Novel Project Preliminary Feasibility Run
+
+Paper:
+Linear Classifier: An Often-Forgotten Baseline for Text Classification
+
+Dataset:
+UNFAIR-ToS
+
+Method:
+One-vs-Rest Linear Classifier
+
+Environment:
+Python 3.8.20
+CPU-based execution
+
+Command:
+python main.py --config config\unfair_tos\l2svm.yml --linear_technique 1vsrest --zero
+
+Results:
+Micro-F1: 94.8702
+Macro-F1: 75.0596
+
+Wall time:
+3 seconds
+
+Status:
+Successful

@@ -1,0 +1,10 @@
+original_code/
+data/
+__pycache__/
+*.pyc
+.env
+.venv/
+runs/
+
+2023.acl-short.160_researchpaper.pdf
+Assessment-Project-Proposal.pdf
