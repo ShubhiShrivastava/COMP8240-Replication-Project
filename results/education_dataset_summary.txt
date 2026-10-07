@@ -1,0 +1,32 @@
+Australian Government Media Release Dataset
+Education Category - Collection Summary
+
+Collection status:
+- Successfully collected 51 Education media releases.
+- Source: Australian Government Ministers' Education Media Centre.
+- Date range: 2 October 2026 to 4 December 2025.
+
+Dataset structure:
+- Number of records: 51
+- Number of fields: 6
+
+Fields:
+- title
+- text
+- date
+- department
+- label
+- source_url
+
+Initial Data Quality Checks:
+- Duplicate source URLs: 0
+- Missing text records: 0
+- Minimum text length: 523 characters
+- Average text length: 3,308 characters
+
+Initial annotation:
+- All records receive the initial label "education" based on their source.
+- Potentially off-topic or cross-portfolio releases will be manually reviewed before finalising labels.
+
+Status:
+Collection successful. Initial quality checks completed.

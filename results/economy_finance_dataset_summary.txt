@@ -1,0 +1,42 @@
+Australian Government Media Release Dataset
+Economy / Finance Category - Collection Summary
+
+Collection status:
+- Successfully collected 50 Economy / Finance media releases.
+- Source: Australian Government Treasury Ministers - Treasurer Jim Chalmers media release archive.
+- Date range: 7 October 2026 to 28 May 2026.
+- Five archive pages were scanned.
+- 100 unique candidate media release links were identified.
+
+Dataset structure:
+- Number of records: 50
+- Number of fields: 6
+
+Fields:
+- title
+- text
+- date
+- department
+- label
+- source_url
+
+Initial Data Quality Checks:
+- Duplicate source URLs: 0
+- Missing text records: 0
+- Minimum text length: 1,250 characters
+- Average text length: 3,144 characters
+
+Preprocessing:
+- Whitespace normalisation applied.
+- Documents below 300 characters excluded.
+- Duplicate source URLs removed.
+- Duplicate document text removed.
+- Article text was separated from common website navigation and footer content.
+
+Initial annotation:
+- Records receive the initial label "economy_finance" based on the Treasurer media release source.
+- Releases were collected from a larger pool of 100 candidates.
+- Potentially ambiguous or cross-portfolio releases, including housing and health-related releases, will be manually reviewed before final labels are confirmed.
+
+Status:
+Collection successful. Initial filtering, preprocessing and quality checks completed.

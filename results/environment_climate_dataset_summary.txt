@@ -1,0 +1,42 @@
+Australian Government Media Release Dataset
+Environment / Climate Category - Collection Summary
+
+Collection status:
+- Successfully collected 50 Environment / Climate media releases.
+- Source: Australian Government Minister for Climate Change and Energy media release archive.
+- Date range: 7 October 2026 to 29 May 2026.
+- Six archive pages were scanned.
+- 60 unique candidate media release links were identified.
+
+Dataset structure:
+- Number of records: 50
+- Number of fields: 6
+
+Fields:
+- title
+- text
+- date
+- department
+- label
+- source_url
+
+Initial Data Quality Checks:
+- Duplicate source URLs: 0
+- Missing text records: 0
+- Minimum text length: 1,884 characters
+- Average text length: 3,737 characters
+
+Preprocessing:
+- Whitespace normalisation applied.
+- Documents below 300 characters excluded.
+- Duplicate source URLs removed.
+- Duplicate document text removed.
+- Common website navigation and footer content was excluded where possible.
+
+Initial annotation:
+- Records receive the initial label "environment_climate" based on the Climate Change and Energy ministerial source.
+- Potentially ambiguous or cross-topic releases, including fuel-security and economic-policy content, will be manually reviewed before final labels are confirmed.
+- Cross-class duplicates will also be checked after combining all five categories.
+
+Status:
+Collection successful. Initial filtering, preprocessing and quality checks completed.

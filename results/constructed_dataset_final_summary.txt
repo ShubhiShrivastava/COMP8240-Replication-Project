@@ -1,0 +1,53 @@
+AUSTRALIAN GOVERNMENT MEDIA RELEASE TOPIC CLASSIFICATION DATASET
+=================================================================
+
+Final number of records: 248
+Number of topic classes: 5
+Confirmed manual exclusions: 3
+Confirmed manual relabels: 2
+
+CLASS DISTRIBUTION
+-----------------------------------------------------------------
+economy_finance        48
+education              52
+environment_climate    49
+foreign_affairs        49
+health                 50
+
+
+MISSING / BLANK VALUE CHECK
+-----------------------------------------------------------------
+title: 0 missing, 0 blank
+text: 0 missing, 0 blank
+date: 0 missing, 0 blank
+department: 0 missing, 0 blank
+label: 0 missing, 0 blank
+source_url: 0 missing, 0 blank
+
+DUPLICATE CHECK
+-----------------------------------------------------------------
+Records involved in duplicate source URLs: 0
+Records involved in duplicate exact text: 0
+Records involved in duplicate titles: 5
+
+TEXT LENGTH BY CLASS (WORDS)
+-----------------------------------------------------------------
+                     count   mean  median  min   max
+label                                               
+economy_finance         48  504.6   453.0  205  1513
+education               52  512.0   397.5   86  4038
+environment_climate     49  553.6   525.0  293  1211
+foreign_affairs         49  405.9   348.0  207  1601
+health                  50  585.3   508.0  278  4069
+
+
+ANNOTATION PROCESS
+-----------------------------------------------------------------
+Initial topic labels were assigned from the official Australian Government portfolio/source.
+Cross-class title similarity and keyword-based screening were then used to identify potentially ambiguous records for manual review.
+Manual content inspection resulted in 3 confirmed exclusions and 2 confirmed relabelling decisions.
+All manual decisions and reasons are preserved in annotation_decisions.csv.
+
+FINAL DATASET
+-----------------------------------------------------------------
+data\constructed\australian_gov_media\australian_gov_media_final.csv

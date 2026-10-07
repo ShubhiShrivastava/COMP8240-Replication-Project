@@ -1,0 +1,41 @@
+Australian Government Media Release Dataset
+Health Category - Collection Summary
+
+Collection status:
+- Successfully collected 50 Health media releases.
+- Source: Australian Government Health, Disability and Ageing Ministers' Media Centre.
+- Date range: 6 October 2026 to 5 August 2026.
+- 375 candidate media pages were discovered across 15 listing pages.
+- Non-media-release content such as transcripts, speeches and opinions was filtered out.
+
+Dataset structure:
+- Number of records: 50
+- Number of fields: 6
+
+Fields:
+- title
+- text
+- date
+- department
+- label
+- source_url
+
+Initial Data Quality Checks:
+- Duplicate source URLs: 0
+- Missing text records: 0
+- Minimum text length: 1,761 characters
+- Average text length: 3,802 characters
+
+Preprocessing:
+- Whitespace normalisation applied.
+- Very short documents below 300 characters excluded.
+- Duplicate source URLs removed.
+- Duplicate document text removed.
+- Only pages identified as "Media release" retained.
+
+Initial annotation:
+- Records receive the initial label "health" based on the source portfolio.
+- Potentially ambiguous or cross-topic releases, including disability/NDIS and other cross-portfolio content, will be manually reviewed before final labels are confirmed.
+
+Status:
+Collection successful. Initial filtering, preprocessing and quality checks completed.

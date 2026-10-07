@@ -1,0 +1,40 @@
+Australian Government Media Release Dataset
+Foreign Affairs Category - Collection Summary
+
+Collection status:
+- Successfully collected 50 Foreign Affairs media releases.
+- Source: Australian Government Foreign Minister media releases.
+- Date range: 07 October 2026 to 01 July 2026.
+- 100 candidate media release links were identified.
+
+Dataset structure:
+- Number of records: 50
+- Number of fields: 6
+
+Fields:
+- title
+- text
+- date
+- department
+- label
+- source_url
+
+Initial Data Quality Checks:
+- Duplicate source URLs: 0
+- Missing text records: 0
+- Minimum text length: 1,469 characters
+- Average text length: 2,846 characters
+
+Preprocessing:
+- Whitespace normalisation applied.
+- Documents below 300 characters excluded.
+- Duplicate source URLs removed.
+- Duplicate document text removed.
+- Only media releases and joint media releases retained.
+
+Initial annotation:
+- Records receive the initial label "foreign_affairs" based on their official source.
+- Potentially ambiguous or cross-topic releases will be manually reviewed before final labels are confirmed.
+
+Status:
+Collection successful. Initial filtering, preprocessing and quality checks completed.
