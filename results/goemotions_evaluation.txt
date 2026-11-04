@@ -1,0 +1,11 @@
+Dataset: GoEmotions
+Training records: 43410
+Testing records: 5427
+Number of labels: 28
+Model: TF-IDF + LIBLINEAR one-vs-rest SVM
+LIBLINEAR options: -s 2 -B 1 -e 0.0001 -q
+Prediction rule: decision score > 0 (multilabel)
+Micro-F1: 47.3303
+Macro-F1: 33.7782
+Elapsed time (seconds): 10.03
+Validation split: not used

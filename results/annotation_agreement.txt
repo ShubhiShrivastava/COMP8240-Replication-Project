@@ -1,0 +1,7 @@
+Annotation validation: 50 documents
+Percentage agreement: 98.00%
+Cohens Kappa: 0.9750
+Disagreements: 1
+
+                             title      original_label       llm_label
+Government maintains fuel security environment_climate economy_finance

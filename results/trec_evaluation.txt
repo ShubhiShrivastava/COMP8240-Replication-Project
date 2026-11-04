@@ -1,0 +1,10 @@
+Dataset: TREC (coarse labels)
+Training records: 5452
+Testing records: 500
+Number of categories: 6
+Model: TF-IDF + LIBLINEAR one-vs-rest SVM
+LIBLINEAR options: -s 2 -B 1 -e 0.0001 -q
+Prediction rule: highest decision score (single-label)
+Micro-F1: 87.8000
+Macro-F1: 87.5229
+Elapsed time (seconds): 0.35

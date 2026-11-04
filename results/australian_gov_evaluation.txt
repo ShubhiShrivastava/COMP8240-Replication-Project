@@ -1,0 +1,27 @@
+Dataset: Australian Government Media Releases
+Total records: 248
+Training records: 198
+Testing records: 50
+Number of categories: 5
+Split: stratified 80/20
+Random seed: 1337
+Model: TF-IDF + LIBLINEAR one-vs-rest SVM
+LIBLINEAR options: -s 2 -B 1 -e 0.0001 -q
+Prediction rule: highest decision score (single-label)
+Micro-F1: 98.0000
+Macro-F1: 97.9950
+Elapsed time (seconds): 0.31
+
+Per-class classification report:
+                     precision    recall  f1-score   support
+
+    economy_finance       1.00      1.00      1.00        10
+          education       1.00      0.90      0.95        10
+environment_climate       1.00      1.00      1.00        10
+    foreign_affairs       1.00      1.00      1.00        10
+             health       0.91      1.00      0.95        10
+
+           accuracy                           0.98        50
+          macro avg       0.98      0.98      0.98        50
+       weighted avg       0.98      0.98      0.98        50
+

@@ -1,0 +1,9 @@
+Dataset: BANKING77
+Training records: 10003
+Testing records: 3080
+Model: TF-IDF + LIBLINEAR one-vs-rest SVM
+LIBLINEAR options: -s 2 -B 1 -e 0.0001 -q
+Prediction rule: highest decision score (single-label)
+Micro-F1: 89.5130
+Macro-F1: 89.5039
+Elapsed time (seconds): 5.27

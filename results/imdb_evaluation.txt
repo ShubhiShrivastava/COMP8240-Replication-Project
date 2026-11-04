@@ -1,0 +1,10 @@
+Dataset: IMDb
+Training records: 25000
+Testing records: 25000
+Model: TF-IDF + LIBLINEAR one-vs-rest SVM
+LIBLINEAR options: -s 2 -B 1 -e 0.0001 -q
+Prediction rule: highest decision score (single-label)
+Micro-F1: 87.7200
+Macro-F1: 87.7185
+Elapsed time (seconds): 13.74
+Unsupervised split: not used

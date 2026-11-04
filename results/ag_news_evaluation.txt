@@ -1,0 +1,9 @@
+Dataset: AG News
+Training records: 120000
+Testing records: 7600
+Model: TF-IDF + LIBLINEAR one-vs-rest SVM
+LIBLINEAR options: -s 2 -B 1 -e 0.0001 -q
+Prediction rule: highest decision score (single-label)
+Micro-F1: 91.9474
+Macro-F1: 91.9330
+Elapsed time (seconds): 12.13

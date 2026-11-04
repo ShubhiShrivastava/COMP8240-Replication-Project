@@ -14,7 +14,6 @@ environment_climate    49
 foreign_affairs        49
 health                 50
 
-
 MISSING / BLANK VALUE CHECK
 -----------------------------------------------------------------
 title: 0 missing, 0 blank

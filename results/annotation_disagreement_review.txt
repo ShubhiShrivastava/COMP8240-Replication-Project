@@ -1,0 +1,6 @@
+Document: Government maintains fuel security
+Original label: environment_climate
+LLM label: economy_finance
+Review: The document primarily concerns domestic petrol and diesel reserves, fuel supply obligations, and disruptions to fuel markets. The original label reflects the publishing department, but the text is not primarily about environmental or climate policy. The economy_finance label is more defensible under the five-category topic rubric.
+Decision: Retain the original dataset and evaluation results unchanged. Document this as a source-based labelling ambiguity and limitation.
+Agreement: 49/50 (98.00 percent); Cohens Kappa = 0.9750. These are original-label versus LLM-label agreement measures, not human-human inter-annotator agreement.
